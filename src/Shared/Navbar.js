@@ -2,6 +2,7 @@ import React from 'react'
 import { AiFillTwitterCircle} from 'react-icons/ai';
 import { SiFacebook } from 'react-icons/si';
 import {FaInstagramSquare} from 'react-icons/fa';
+import { Link } from 'react-router-dom'
 import p1 from "../image/home/p1.jpg"
 import p2 from "../image/home/p2.webp"
 import p3 from "../image/home/p3.png"
@@ -28,11 +29,11 @@ const Navbar = () => {
     <ul tabindex="0" class=" menu-horizontal p-0 text-lg ">
       <li class="hover:text-blue-800 active text-lg "><a href="">Home</a></li>
       <li class="hover:text-blue-800 mx-7" ><a href="">Rooms</a></li>
-      <li class="hover:text-blue-800 " ><a href="">Restaurant</a></li>
-      <li class="hover:text-blue-800 mx-7"><a href="">About</a></li>
-      <li class="hover:text-blue-800 "> <a href="">Blog</a></li>
-      <li class="hover:text-blue-800 mx-7"><a href="">Contact</a></li>
-    </ul>
+      <li class="hover:text-blue-800 "><a href="">About</a></li>
+      <li class="hover:text-blue-800 mx-7 "> <a href="">Blog</a></li>
+      <li class="hover:text-blue-800 "><a href="">Contact</a></li>
+      <li class="hover:text-blue-800 mx-7"><Link to ="/login" >Login</Link></li>
+      </ul>
   </div>
   <div class="navbar-end lg-flex">
     <a class="hover:text-blue-500 text-2xl px-3" target="_blank" href="https://github.com/SanzinaHossain?tab=repositories"><SiFacebook></SiFacebook></a>

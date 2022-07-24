@@ -5,9 +5,11 @@ import {GiReceiveMoney,GiSelfLove} from "react-icons/gi"
 import {FaHotel} from "react-icons/fa"
 import {HiOutlineSupport} from "react-icons/hi"
 import heropattern from "../../image/home/hero-pattern.jpg"
+import Extra from './Extra'
 const Home = () => {
   return (
-  <div class=" w-full hi bg-no-repeat bg-cover lg:p-20 p-12"style={{backgroundImage:`url(${heropattern})`}}>
+ <div class="">
+   <div class=" w-full hi bg-no-repeat bg-cover lg:p-20 p-12 lg:mb-56 mb-96 "style={{backgroundImage:`url(${heropattern})`}}>
      <div>
      <h1 class="text-7xl text-white font-bold">Explore</h1>
      <h1 class="text-5xl text-white lg:mt-6 mt-3">Our Amazing Resort</h1>
@@ -16,7 +18,7 @@ const Home = () => {
      whileHover={{scale:1.1}}
      transition={{duration:0.5}}>Descover Now</motion.button>
      </div>
-     <div class="grid lg:grid-cols-4 grid-cols-1 gap-5 lg:mt-28 mt-40 lg:pl-12 pl-6">
+     <div class="grid lg:grid-cols-4 grid-cols-1 gap-5 lg:mt-28 mt-40 lg:pl-12 pl-6 lg:mb-0 mb-96">
           <div class="w-56 h-64 bg-white p-10 shadow-2xl ">
               
                 <h1 class="text-center text-blue-900 font-bold text-5xl pl-12 pt-4"><GiReceiveMoney></GiReceiveMoney></h1>
@@ -43,6 +45,10 @@ const Home = () => {
           </div>
      </div>
      </div>
+     <div>
+    
+     </div>
+ </div>
   )
 }
 
