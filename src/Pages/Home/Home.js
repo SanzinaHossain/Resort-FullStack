@@ -5,7 +5,6 @@ import {GiReceiveMoney,GiSelfLove} from "react-icons/gi"
 import {FaHotel} from "react-icons/fa"
 import {HiOutlineSupport} from "react-icons/hi"
 import heropattern from "../../image/home/hero-pattern.jpg"
-import Extra from './Extra'
 const Home = () => {
   return (
  <div class="">

@@ -27,7 +27,7 @@ const Login = () => {
                  }
               })}     
               type="email" 
-              placeholder="Enter Email" 
+              placeholder="Enter Your Email" 
               class="input input-bordered w-full max-w-xs mt-0 rounded-lg " />
             <label class="label">
             {errors.email?.type === 'required' && <span className="label-text-alt text-red-700">{errors.email.message}</span>}
